@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;1,400;1,800;1,900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'poppins', arial;
+  /* width: 100vh;
+  overflow-y: hidden; */
+ 
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 25px 10%;
+  /* border-bottom: 1px solid  hsl(223, 64%, 98%); */
+}
+
+.border-bottom{
+  border: 1px solid  hsl(223, 64%, 98%);
+  margin-left: 153px;
+  margin-right: 153px;
+}
+
+
+li, a, ul{
+  text-decoration: none;
+  color:  hsl(0, 0%, 40%);
+  list-style: none;
+}
+
+.margin{
+position: absolute;
+left: 320px; 
+}
+
+.pfp{
+  height: 3em;
+  transition: all 0.2s ease 0s;
+}
+
+.logo{
+  cursor: pointer;
+  margin-right: auto;
+  position: relative;
+  transition: all 0.3s ease 0s;
+}
+
+
+.pfp:hover{
+  transform: scale(0.98);
+  border: 3px solid hsl(26, 100%, 55%);
+  border-radius: 50%;
+}
+.nav li {
+  display: inline-block;
+  padding: 0px 15px;
+  
+}
+
+.logo:hover{
+  transform: scale(0.98);
+}
+
+
+.nav li a{
+  transition: all 0.1s ease 0s;
+  padding-bottom: 40px;
+}
+
+.nav li a:hover{
+  color: hsl(0, 0%, 0%);
+  border-bottom: 3px solid  hsl(26, 100%, 55%);
+}
+
+.icon-cart{
+  padding-right: 3em;
+  transition: all 0.3s ease 0s;
+}
+
+.icon-cart:hover{
+  transform: scale(0.98);
+}
+
+
+.first {
+  font-size: 10px;
+  color: hsl(26, 100%, 55%);
+  letter-spacing: 2px;
+  /* position: absolute;
+  top: 20em;
+  right: 40em; */
+}
+
+.second{
+  line-height: 35px;
+  letter-spacing: 1px;
+  padding: 10px 0px 0px 0px;
+}
+
+.small-row{
+  display: flex;
+  flex: 1;
+}
+
+.perc{
+  padding: 1em ;
+  color: hsl(26, 100%, 55%);
+  background-color:  hsl(25, 100%, 94%);
+  /* position: absolute;
+  left: 110px; */
+  border-radius: 10%;
+  font-size: 0.7em;
+  font-weight: 700;
+  /* top: 310px; */
+  margin-left: 1em;
+}
+
+.dolls {
+  position: relative;
+  font-weight: 500;
+}
+
+.third{
+  font-size: 0.8em;
+  color: hsl(219, 9%, 45%);
+  padding: 20px 0px 20px 0px;
+  line-height: 1.7em;
+}
+
+.slashed {
+  color: hsl(220, 14%, 75%);
+  text-decoration: line-through;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+
+.right{
+  position: absolute;
+  top: 15em;
+  right: 16em;
+}
+
+.number{
+  background-color: hsl(223, 64%, 98%);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 18px 50px 18px 50px; */
+   /* margin-right: 85em; 
+   margin-top: 2em;  */
+   padding: auto;
+}
+
+.sign{
+  font-weight: 600;
+  text-decoration: none;
+  padding: 18px 25px 18px 25px;
+}
+
+.sign:nth-child(1){
+  color: hsl(26, 100%, 55%);
+}
+
+.sign:nth-child(3){
+  color: hsl(26, 100%, 55%);
+}
+
+.number a:hover{
+  transform: scale(0.98);
+}
+
+.number a{
+  transition: all 0.3s ease 0s;
+}
+
+.add-to{
+  color:  hsl(0, 0%, 100%);
+  font-weight: 500;
+  padding-left:4px;
+  font-family: 'poppins';
+}
+
+.button2{
+  display: flex;
+  background-color: hsl(26, 97%, 49%);
+  border-radius: 10px;
+  justify-content: center;
+  padding: 18px 60px 15px 60px;
+  /* margin-right: 75em;
+   margin-top: 2em;  */
+  border: none;
+  cursor: pointer;
+  box-shadow: hsl(26, 100%, 55%) 0px 25px 20px -20px;
+  transition: all 0.3s ease 0s;
+  margin-left: 1.2em;
+}
+
+.icon-cart1{
+  padding-right: 4px;
+} 
+
+.button2:hover{
+  transform: scale(0.98);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: max-content;
+  gap: 1px;
+  padding-top: 28px;
+}
+
+
+.box{
+  width: 500px;
+ 
+}
+
+.image1{
+  max-width: 90%;
+  border-radius: 15px;
+}
+
+.left {
+  position: absolute;
+  top: 11em;
+  left: 16em;
+}
+
+.images2{
+  max-width: 70%;
+  border-radius: 10px;
+}
+
+.thumbnail{
+  width: 100px;
+  transition: all 0.3s ease 0s;
+}
+
+
+.thumb-flex{
+  display: flex;
+  gap: 25px;
+  padding-top: 0.7em;
+  cursor: pointer;
+}
+
+.thumbnail:hover{
+  transform: scale(0.98);
+}
+
+.images2:active{
+  border: 3px solid  hsl(26, 100%, 55%);
+  border-radius: 10px;
+  max-width: 70%;
+  filter: contrast(190%);
+}
